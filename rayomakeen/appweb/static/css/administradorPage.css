@@ -1,0 +1,77 @@
+.administrador{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);   
+}
+
+body  {
+    background-image: url("../img/fondohomesi");
+    background-color: black ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.barra{
+    background-color: transparent !important;
+    
+  }
+a{
+    color: white !important;
+ }
+.form-contact{
+    padding: 24px;
+    padding-left:4rem; 
+}
+
+.icon{
+    width:3rem;
+}
+
+.dropdown-item {
+
+    color: black !important;
+  }
+  
+nav{
+    border-bottom: 1px solid #242022 !important;
+}
+
+.item{
+    padding-bottom: 0;
+  }
+
+.active{
+    border-bottom: 1px solid white !important;
+}
+
+.tabla{
+    margin-left:6vw;
+    margin-right: 6vw;
+    overflow-y: auto ;
+    max-height: 70vh;
+    margin-top:2rem;
+    opacity: 0.8;
+}
+
+main ::-webkit-scrollbar
+    {
+      width: 8px;  /* for vertical scrollbars */
+      height: 8px; /* for horizontal scrollbars */
+    }
+    
+main ::-webkit-scrollbar-track
+    {
+      background:rgba(0, 0, 0, 0.1);
+    }
+    
+main ::-webkit-scrollbar-thumb
+    {
+      background:  #f0f2f58c;
+      border-radius: 10px;
+    }
+
+#myInput{
+    border-radius:0.5rem;
+    padding:0.3rem;
+    margin-right:1rem;
+}
